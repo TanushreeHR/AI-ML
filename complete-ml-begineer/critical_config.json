@@ -1,0 +1,30 @@
+{
+    "druid": {
+        "user": "sa_mridds",
+        "password": "mri@utd$_09894_ihjdu"
+    },
+    "mysql": {
+        "host": "mridlmetadata.ccoqqognomd8.ap-southeast-1.rds.amazonaws.com",
+        "username": "mrimetaadmin",
+        "password": "mR!M3ta912",
+        "dbname": "mrimetadata"
+    },
+    "redshift": {
+        "driver": "redshift+redshift_connector",
+        "host": "redshift-datalake-cluster.ce4iytzcfnnx.ap-southeast-1.redshift.amazonaws.com",
+        "port": 5439,
+        "dbname": "reporting_anomaly",
+        "user": "anomaly_user",
+        "password": "j78#^D4H$j0"
+    },
+    "smtp": {
+        "host": "email-smtp.us-east-1.amazonaws.com",
+        "user": "AKIAJLO2TER6SQ24NDFA",
+        "password": "BGPyQ2fapw7eSxqVFcPwiO0TUlJiQ5YCdBxO9/xGTJaX",
+        "port": 587,
+        "SMTP_STARTTLS": false,
+        "SMTP_SSL": false,
+        "SMTP_MAIL_FROM": "superalert@redbus.in",
+        "SMTP_FROM_NAME": "alerts"
+    }
+}
